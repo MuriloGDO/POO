@@ -1,4 +1,4 @@
-export class Alugar{
+export class Bike{
     tempo_de_aluguel: number;
     preco_por_hora: number;
     forma_de_pagamento: string;
