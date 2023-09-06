@@ -114,7 +114,6 @@ export class App {
         for(let i = 0; i < this.users.length; i++){
             if(this.users[i].id === id){
                 var verifica: string = hashSync(senha, this.salt);
-                console.log(verifica)
                 if(verifica === this.users[i].passoword){
                     return true
                 }
